@@ -1,4 +1,5 @@
 '''
+
 Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
 Example:
 MovingAverage m = new MovingAverage(3);
@@ -6,6 +7,11 @@ m.next(1) = 1
 m.next(10) = (1 + 10) / 2
 m.next(3) = (1 + 10 + 3) / 3
 m.next(5) = (10 + 3 + 5) / 3
+
+If you can work your way through that problem, be prepared for follow up questions:
+- If all integer numbers from the stream are between 0 and 100, how would you optimize it?
+- If 99% of all integer numbers from the stream are between 0 and 100, how would you optimize it?
+
 '''
 
 
